@@ -1,0 +1,24 @@
+# ---- Dependencies ----
+node_modules/
+
+# ---- Secrets (NEVER push these!) ----
+.env
+.env.local
+
+# ---- Frontend (excluded as requested) ----
+frontend/
+
+# ---- Logs & caches ----
+*.log
+npm-debug.log*
+logs/
+
+# ---- OS & editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Build outputs ----
+dist/
+build/
